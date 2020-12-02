@@ -11,9 +11,8 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 # Sumário
 
 - [Habilidades](#habilidades)
-- [Entregáveis](Entregáveis)
+- [Entregáveis](#Entregáveis)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Como desenvolver](#como-desenvolver)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Data de entrega](#data-de-entrega)
 - [Intruções para entregar](#intruções-para-entregar)
@@ -21,6 +20,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
   - [Revisando um pull request](#revisando-um-pull-request)
   - [Linter](#linter)
+- [Como desenvolver](#como-desenvolver)
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Grupos de prioridade](#grupos-de-prioridade)
   - [Requisitos Bônus](#requisitos-bônus)
@@ -69,8 +69,6 @@ Neste projeto você criará uma versão simplificada, sem persistência no banco
   - Interagir com os produtos buscados de modo a adicioná-los e removê-los de um carrinho de compras em diferentes quantidades;
   - Visualizar detalhes e avaliações prévias de um produto, bem como criar novas avaliações;
   - E por fim, finalizar a compra (simulada) dos itens selecionados.
-
-## COMO DESENVOLVER
 
 Este repositório **já conta com uma `main-group` para cada grupo**, identificada como `main-group-1` para o grupo 1, `main-group-2` para o grupo 2, e assim por diante. Para desenvolver, você sempre deve:
 
