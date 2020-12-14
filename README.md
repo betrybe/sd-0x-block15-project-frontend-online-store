@@ -344,9 +344,10 @@ A variável `categories` deve conter o objeto JSON com as categorias obtidas atr
 ```
 
 O que será verificado:
-
+```
   - Implementa a função `getCategories`.
   - Implementa a função `getProductsFromCategoryAndQuery`.
+```
 
 #### 2. Crie uma página de listagem de produtos vazia
 
@@ -363,9 +364,10 @@ A tela básica da plataforma é a tela de **listagem de produtos**, onde quem us
   * Adicione o atributo `data-testid` com o valor `home-initial-message` no elemento da mensagem.
 
 O que será verificado:
-
+```
   - A raiz da aplicação, em `<App />`, renderiza com sucesso
   - A tela contém a mensagem pedida: 'Digite algum termo de pesquisa ou escolha uma categoria.'
+```
 
 #### 3. Crie a página do carrinho de compras
 
@@ -384,9 +386,10 @@ Quem usa o site irá adicionar produtos em seu carrinho de compras e finalizar a
   * Adicione o atributo `data-testid` com o valor `shopping-cart-empty-message` no elemento da mensagem.
 
 O que será verificado:
-
+```
   - A home deve ter o botão do carrinho de compras
   - Clicar no botão deve levar à página do carrinho vazio, com a mensagem 'Seu carrinho está vazio' nela
+```
 
 #### 4. Liste as categorias de produtos disponíveis via API na página principal
 
@@ -401,9 +404,9 @@ Um endpoint da API do Mercado Livre retorna as categorias de produto disponívei
   * Adicione o atributo `data-testid` com o valor `category` nos elementos que possuem os nomes das categorias
 
 O que será verificado:
-
+```
   - Exibe as categorias retornadas pela API na página de listagem de produtos
-
+```
 
 #### 5. Liste os produtos buscados por termos, com os dados resumidos, associados a esses termos
 
@@ -421,8 +424,9 @@ A alma do site é a sua lógica de busca e listagem de produtos. Após digitar s
   * Adicione o atributo `data-testid` com o valor `product` nos elementos que possuem os dados dos produtos.
 
 O que será verificado:
-
+```
   - Exibe todos os produtos retornados pela API, dado um determinado filtro
+```
 
 #### 6. Selecione uma categoria e mostre somente os produtos daquela categoria
 
@@ -433,8 +437,9 @@ O que será verificado:
 - A página, agora, deve poder usar as categorias recuperadas da API para filtrar os produtos buscados. Os termos e as categorias inseridas por quem usa devem ser usados em conjunto para filtragens mais específicas.
 
 O que será verificado:
-
+```
   - Filtra corretamente os produtos de uma página para exibir somente os daquela categoria
+```
 
 #### 7. Redirecione para uma tela com a exibição detalhada ao clinar na exibição resumida de um produto
 
@@ -450,9 +455,9 @@ A exibição detalhada de um produto será a página para exibir tudo o que se t
   * Adicione o atributo `data-testid` com o valor `product-detail-name` no elemento que possui o nome do produto na tela de detalhes.
 
 O que será verificado:
-
+```
   - Clicar no card produto leva à página com seus detalhes
-
+```
 
 #### 8. Adicione produtos a partir da tela de listagem de produtos
 
@@ -468,9 +473,9 @@ Configure uma forma de adicionar produtos ao carrinho de compras a partir da tel
   * Adicione o atributo `data-testid` com o valor `shopping-cart-product-quantity` no elemento que possui a quantidade do produto na tela do carrinho de compras. Você deve adicionar esse atributo para todos os produtos.
 
 O que será verificado:
-
+```
   - Adiciona da tela de listagem um produto que aparece no carrinho
-
+```
 
 #### 9. Adicione um produto ao carrinho a partir de sua tela de exibição detalhada
 
@@ -487,9 +492,9 @@ Poder adicionar produtos ao carrinho a partir de sua tela de exibição detalhad
   * Adicione o atributo `data-testid` com o valor `shopping-cart-product-quantity` no elemento que possui a quantidade do produto na tela do carrinho de compras. Você deve adicionar esse atributo para todos os produtos.
 
 O que será verificado:
-
+```
   - Adiciona um produto ao carrinho da sua tela de detalhes
-
+```
 
 #### 10. Visualize a lista de produtos adicionados ao carrinho em sua página e permita a manipulação da sua quantidade
 
@@ -506,8 +511,9 @@ São operações básicas de carrinho a alteração da quantidade de um determin
   * Adicione o atributo `data-testid` com o valor `product-decreate-quantity` no elemento que diminui a quantidade de um produto. Adicione esse atributo para todos os produtos.
 
 O que será verificado:
-
+```
   - Adiciona produtos ao carrinho e manipula suas quantidades
+```
 
 #### 11. Avalie e comente acerca de um produto em sua tela de exibição detalhada
 
@@ -524,8 +530,9 @@ Avaliações positivas de um produto contribuem para boas vendas e nos dão insu
   * Adicione o atributo `data-testid` com o valor `product-detail-evaluation` no campo de texto.
 
 O que será verificado:
-
+```
   - Avalia um produto na sua tela de detalhes
+```
 
 #### 12. Finalize a compra vendo um resumo dela, preenchendo os seus dados e escolhendo a forma de pagamento 
 
@@ -550,8 +557,9 @@ O último grande passo do fluxo do e-commerce é a finalização da compra por p
   * (**Não avaliativo**) Você pode criar um botão que simule a compra desses produtos, na verdade, esse botão não precisa realizar nenhuma função específica.
 
 O que será verificado:
-
+```
   - Faz os passos da compra com sucesso: recupera produtos de uma categoria; adiciona-os ao carrinho; faz o checkout; insere todos os dados
+```
 
 ### BÔNUS:
 
@@ -570,9 +578,10 @@ A partir de uma pesquisa com usuários e concorrentes, identificamos que existe 
   * Esse elemnento deve ser visível da página de listagem de produtos e da página de detalhes de produto.
 
 O que será verificado:
-
+```
   - Vê a quantidade de produtos no carrinho da tela de listagem
   - Vê a quantidade de produtos no carrinho da tela de detalhes
+```
 
 #### 14. Limite a quantidade de produtos adicionados ao carrinho pela quantidade disponível em estoque
 
@@ -583,8 +592,9 @@ O que será verificado:
 Produtos tem disponibilidades limitadas. É uma péssima experiência de uso adicionar ao carrinho produtos que, no fim do processo, não se pode comprar.
 
 O que será verificado:
-
+```
   - Não adiciona ao carrinho mais produtos do que o disponível em estoque
+```
 
 #### 15. Mostre quais produtos tem o frete grátis
 
@@ -601,8 +611,9 @@ As pessoas que vendem no Mercado Livre disponibilizam frete grátis a alguns pro
   * Adicione o atributo `data-testid` com o valor `free-shipping` em elementos que apresentem essa informação para todos os produtos que possuam frete grátis.
 
 O que será verificado:
-
+```
   - Exibe corretamente a informação de frete grátis dos produtos
+```
 
 ### EXTRAS (NÃO AVALIATIVOS):
 
