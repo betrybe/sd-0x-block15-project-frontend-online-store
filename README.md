@@ -20,6 +20,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
   - [Revisando um pull request](#revisando-um-pull-request)
   - [Linter](#linter)
+  - [Usando o Trello como ferramenta kanban](#usando-o-trello-como-ferramenta-kanban)
 - [Como desenvolver](#como-desenvolver)
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Grupos de prioridade](#grupos-de-prioridade)
@@ -272,6 +273,21 @@ Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mai
 ```bash
 npm run lint
 ```
+
+### Usando o Trello como ferramenta kanban
+
+Uma forma para seu grupo organizar as atividades e dividir as tarefas é através de um modelo de kanban. A Trybe disponibiliza um [board pré-configurado para vocês](https://trello.com/b/9mjukxCq/frontend-online-store) duplicarem no [Trello](https://trello.com/).
+
+![img](trello.gif)
+
+Para duplicar, basta seguir os passos:
+
+- Acesse o [link do board](https://trello.com/b/9mjukxCq/frontend-online-store)
+- Abra o menu no canto superior direito
+- Selecione "copiar quadros"
+- Defina o time do seu grupo e um título para o board
+- Clique em `criar`
+- Personalize seu novo kanban!
 
 ---
 
