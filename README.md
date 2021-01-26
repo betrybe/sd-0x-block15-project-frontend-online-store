@@ -25,6 +25,8 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Grupos de prioridade](#grupos-de-prioridade)
   - [Requisitos Bônus](#requisitos-bônus)
   - [Lista de requisitos](#lista-de-requisitos)
+
+    `Requisitos Obrigatórios`
     - [1. Implemente o módulo de acesso à api do Mercado Livre](#1-implemente-o-módulo-de-acesso-à-api-do-mercado-livre)
     - [2. Crie uma página de listagem de produtos vazia](#2-crie-uma-página-de-listagem-de-produtos-vazia)
     - [3. Crie a página do carrinho de compras](#3-crie-a-página-do-carrinho-de-compras)
@@ -37,9 +39,13 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [10. Visualize a lista de produtos adicionados ao carrinho em sua página e permita a manipulação da sua quantidade](#10-visualize-a-lista-de-produtos-adicionados-ao-carrinho-em-sua-página-e-permita-a-manipulação-da-sua-quantidade)
     - [11. Avalie e comente acerca de um produto em sua tela de exibição detalhada](#11-avalie-e-comente-acerca-de-um-produto-em-sua-tela-de-exibição-detalhada)
     - [12. Finalize a compra vendo um resumo dela, preenchendo os seus dados e escolhendo a forma de pagamento](#12-finalize-a-compra-vendo-um-resumo-dela-preenchendo-os-seus-dados-e-escolhendo-a-forma-de-pagamento)
+
+    `Requisitos Bônus`
     - [13. Mostre junto ao ícone do carrinho a quantidade de produtos dentro dele, em todas as telas em que ele aparece](#13-mostre-junto-ao-ícone-do-carrinho-a-quantidade-de-produtos-dentro-dele-em-todas-as-telas-em-que-ele-aparece)
     - [14. Limite a quantidade de produtos adicionados ao carrinho pela quantidade disponível em estoque](#14-limite-a-quantidade-de-produtos-adicionados-ao-carrinho-pela-quantidade-disponível-em-estoque)
     - [15. Mostre quais produtos tem o frete grátis](#15-mostre-quais-produtos-tem-o-frete-grátis)
+
+    `Requisitos Extras`
     - [16. Faça um layout para o site](#16-faça-um-layout-para-o-site)
     - [17. Faça um layout responsivo para o site](#17-faça-um-layout-responsivo-para-o-site)
     - [18. Crie um seletor dropdown para ordenar a lista de produto por maior e menor preço](#18-crie-um-seletor-dropdown-para-ordenar-a-lista-de-produto-por-maior-e-menor-preço)
@@ -62,7 +68,7 @@ Nesse projeto, você será capaz de:
 
 # Entregáveis
 
-## O QUE DEVERÁ SER DESENVOLVIDO
+## O que deverá ser desenvolvido
 
 Neste projeto você criará uma versão simplificada, sem persistência no banco de dados, de uma **loja online**, desenvolvendo em grupo suas funcionalidades de acordo com demandas definidas em um quadro _Kanban_, em um cenário mais próximo ao do mercado de trabalho. A partir dessas demandas, teremos uma aplicação onde os usuários poderão:
   - Buscar produtos por termos e categorias a partir da _API do Mercado Livre_;
@@ -140,7 +146,7 @@ Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
 
 # Intruções para entregar
 
-### DURANTE O DESENVOLVIMENTO
+### Durante o desenvolvimento
 
 * Faça `commits` das alterações que você fizer no código regularmente
 
@@ -155,7 +161,7 @@ Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
 
 ---
 
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
+### Depois de terminar o desenvolvimento (opcional)
 
 Para **"entregar"** seu projeto, siga os passos a seguir:
 
@@ -170,7 +176,7 @@ Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um vid
 
 ---
 
-### REVISANDO UM PULL REQUEST
+### Revisando um pull request
 
 ⚠⚠⚠
 
@@ -561,7 +567,7 @@ O que será verificado:
   - Faz os passos da compra com sucesso: recupera produtos de uma categoria; adiciona-os ao carrinho; faz o checkout; insere todos os dados
 ```
 
-### BÔNUS:
+### Bônus
 
 #### 13. Mostre junto ao ícone do carrinho a quantidade de produtos dentro dele, em todas as telas em que ele aparece
 
@@ -615,7 +621,7 @@ O que será verificado:
   - Exibe corretamente a informação de frete grátis dos produtos
 ```
 
-### EXTRAS (NÃO AVALIATIVOS):
+### Extras (não avaliativos):
 
 #### 16. Faça um layout para o site
 
