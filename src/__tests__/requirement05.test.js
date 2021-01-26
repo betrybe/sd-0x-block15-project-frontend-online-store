@@ -11,8 +11,7 @@ api.getProductsFromCategoryAndQuery.mockImplementation(
   () => Promise.resolve(mockedQueryResult),
 );
 
-describe(`Buscar por termos e receber uma listagem de produtos, com dados resumidos,
-         associados a esses termos`, () => {
+describe(`5 - Liste os produtos buscados por termos, com os dados resumidos, associados a esses termos`, () => {
   it(`Exibe todos os produtos retornados pela API, dado um determinado
       filtro`, async () => {
     render(<App />);

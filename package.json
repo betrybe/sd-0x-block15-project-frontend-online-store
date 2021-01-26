@@ -1,5 +1,5 @@
 {
-  "name": "sd-0x-block15-project-frontend-online-store",
+  "name": "sd-0x-project-frontend-online-store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^10.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {
@@ -15,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json .",
+    "lint:styles": "npx stylelint '**/*.css'"
   },
   "browserslist": {
     "production": [
@@ -31,11 +33,14 @@
   },
   "devDependencies": {
     "@sheerun/mutationobserver-shim": "^0.3.3",
-    "eslint": "^6.8.0",
+    "eslint": "6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.5.1"
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0"
   }
 }
