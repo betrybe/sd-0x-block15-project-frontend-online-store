@@ -268,7 +268,7 @@ O retorno desse endpoint será algo como o exemplo que temos [neste arquivo](exe
 
 ### Linter
 
-Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o linter `ESLint`. Para rodar o linter localmente no seu projeto, execute o comando abaixo:
+Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto os linters `ESLint` e `Stylelint`. Para rodar os linters localmente no seu projeto, execute os comandos abaixo:
 
 ```bash
 npm run lint
