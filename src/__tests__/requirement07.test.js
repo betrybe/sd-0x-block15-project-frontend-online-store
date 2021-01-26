@@ -13,9 +13,8 @@ api.getProductsFromCategoryAndQuery.mockImplementation(
   () => Promise.resolve(mockedQueryResult),
 );
 
-describe(`Adicionar um produto ao carrinho a partir de sua tela de exibição
-          detalhada`, () => {
-  it('Adiciona um produto ao carrinho da sua tela de detalhes', async () => {
+describe(`7 - Redirecione para uma tela com a exibição detalhada ao clicar na exibição resumida de um produto`, () => {
+  it('Clicar no card produto leva à página com seus detalhes', async () => {
     render(<App />);
     await waitFor(() => expect(api.getCategories).toHaveBeenCalled());
     fireEvent.click(screen.getAllByTestId('category')[0]);
@@ -26,14 +25,5 @@ describe(`Adicionar um produto ao carrinho a partir de sua tela de exibição
         mockedQueryResult.results[0].title,
       ),
     );
-    fireEvent.click(screen.getByTestId('product-detail-add-to-cart'));
-    fireEvent.click(screen.getByTestId('shopping-cart-button'));
-    await waitFor(() => expect(screen.getAllByTestId('shopping-cart-product-name')));
-    expect(screen.getAllByTestId('shopping-cart-product-name')[0]).toHaveTextContent(
-      mockedQueryResult.results[0].title,
-    );
-    expect(
-      screen.getAllByTestId('shopping-cart-product-quantity')[0],
-    ).toHaveTextContent('1');
   });
 });
