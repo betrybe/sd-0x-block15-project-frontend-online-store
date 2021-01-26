@@ -46,7 +46,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [14. Limite a quantidade de produtos adicionados ao carrinho pela quantidade disponível em estoque](#14-limite-a-quantidade-de-produtos-adicionados-ao-carrinho-pela-quantidade-disponível-em-estoque)
     - [15. Mostre quais produtos tem o frete grátis](#15-mostre-quais-produtos-tem-o-frete-grátis)
 
-    `Requisitos Extras`
+    `Requisitos Extras Não Avaliativos`
     - [16. Faça um layout para o site](#16-faça-um-layout-para-o-site)
     - [17. Faça um layout responsivo para o site](#17-faça-um-layout-responsivo-para-o-site)
     - [18. Crie um seletor dropdown para ordenar a lista de produto por maior e menor preço](#18-crie-um-seletor-dropdown-para-ordenar-a-lista-de-produto-por-maior-e-menor-preço)
