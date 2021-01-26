@@ -64,6 +64,7 @@ Nesse projeto, você será capaz de:
 * Entender o que é Kanban
 * Entender o que é Scrum
 * Trabalhar em equipes utilizando Kanban ou Scrum de maneira eficaz
+* Praticar todas as habilidades desenvolvidas até agora no módulo de Front-End
 
 ---
 
@@ -268,10 +269,11 @@ O retorno desse endpoint será algo como o exemplo que temos [neste arquivo](exe
 
 ### Linter
 
-Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o linter `ESLint`. Para rodar o linter localmente no seu projeto, execute o comando abaixo:
+Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto os linters `ESLint` e `Stylelint`. Para rodar os linters localmente no seu projeto, execute os comandos abaixo:
 
 ```bash
 npm run lint
+npm run lint:styles
 ```
 
 ### Usando o Trello como ferramenta kanban
@@ -293,7 +295,7 @@ Para duplicar, basta seguir os passos:
 
 # Requisitos do projeto
 
-Para o bom andamento deste projeto disponibilizamos, além do README a seguir, um _quadro Kanban_ com as demandas a realizar para o projeto ser concluído com sucesso. Confira o _Slack_ para saber como acessar o quadro! É de suma importância que o grupo se organize utilizando o quadro para maior eficiência e para que se minimizem os conflitos que a união de vários códigos trará.
+É de suma importância que o grupo se organize utilizando o kanban para maior eficiência e para que se minimizem os conflitos que a união de vários códigos trará.
 
 Além disso, você verá que os requisitos do projeto tem, além das observações técnicas e do que será validado, descrições tais quais se veriam em um projeto real. É **muito importante** ser capaz de ler descrições como essa e transformá-las em produtos ou, se houver dúvida, **saber tirar tais dúvidas!** Seguimos à disposição no Slack para isso.
 
