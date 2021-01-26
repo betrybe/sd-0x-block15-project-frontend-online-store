@@ -272,6 +272,7 @@ Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mai
 
 ```bash
 npm run lint
+npm run lint:styles
 ```
 
 ### Usando o Trello como ferramenta kanban
