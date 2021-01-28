@@ -53,7 +53,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [19. Coloque uma animação no carrinho para quando um produto for adicionado](#19-coloque-uma-animação-no-carrinho-para-quando-um-produto-for-adicionado)
     - [20. Crie um slider lateral para exibir o carrinho na tela principal](#20-crie-um-slider-lateral-para-exibir-o-carrinho-na-tela-principal)
     - [21. Destaque, na tela principal, os produtos já adicionados ao carrinho](#21-destaque-na-tela-principal-os-produtos-já-adicionados-ao-carrinho)
-    - [22. Crie um slider lateral para exibir o carrinho na tela principal](#22-crie-um-slider-lateral-para-exibir-o-carrinho-na-tela-principal)
+    - [22. Impeça que a quantidade do produto seja negativa](#22-impeca-que-a-quantidade-do-produto-seja-negativa)
 - [Avisos finais](#avisos-finais)
 
 # Habilidades
@@ -267,6 +267,8 @@ O retorno desse endpoint será algo no formato:
 
 O retorno desse endpoint será algo como o exemplo que temos [neste arquivo](exemplo-motorola.json).
 
+⚠ **ATENÇÃO! Se der erro de CORS aperte `ctrl + shift + r` no seu navegador** ⚠
+
 ### Linter
 
 Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto os linters `ESLint` e `Stylelint`. Para rodar os linters localmente no seu projeto, execute os comandos abaixo:
@@ -314,7 +316,6 @@ Se você não seguir a ordem de prioridades terá que lidar com mais **conflitos
 
 ### Requisitos Bônus
 
-No grupo de **Prioridade 4** há um requisito obrigatório, o requisito 12, e os requisitos 13 a 15, que são bônus. Além deles, temos um conjunto de cards menos prioritários (**Prioridade 5**) que não são contemplados pelo avaliador automático mas são funcionalidades que acrescentarão muito ao trabalho quando este for apresentado em um portfólio.
 
 **Saiba priorizar tarefas e priorize o essencial antes de partir para os extras!** Você se deparará com inúmeras situações no trabalho em que precisará priorizar, então este é um exercício muito importante de se praticar.
 
